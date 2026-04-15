@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+    background: radial-gradient(circle, #0a0a0a, #000);
+    color: #00ffcc;
+    text-align: center;
+} 
+
+.container {
+    padding: 20px;
+}
+
+h1 {
+    text-shadow: 0.7;
+}
+
+.panel {
+    margin: 15px auto;
+    padding: 15px;
+    width: 320px;
+    border: 1px solid #00ffcc;
+
+    background: reba(0,255,204,0.05);
+}
+
+button {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px;
+    background: transparent;
+    border: 1px soild #00ffcc;
+    color: #00ffcc;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00ffcc;
+    color: black;
+}
+
+.terminal {
+    margin-top: 20px;
+    font-size: 12px;
+    height: 120px;
+    overflow-y: auto;
+    border: 1px solid #00ffcc;
+    padding: 10px;
+}
